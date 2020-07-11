@@ -11,8 +11,6 @@ jobs:
            git clone https://github.com/PREDATOR-project/PREDATOR_kernel_EAS_whyred.git -b predator-eas --depth=1 kernel
            cd kernel
            git clone https://github.com/PREDATOR-project/myscripts.git -b master
-           chmod +x myscripts/envsetup.sh
-           chmod +x myscripts/circle1.sh
            source ./myscripts/envsetup.sh
            ./myscripts/circle1.sh
 workflows:
