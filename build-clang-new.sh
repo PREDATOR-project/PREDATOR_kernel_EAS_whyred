@@ -21,7 +21,7 @@ THREAD="-j$CORES"
 
 # export
 export KBUILD_BUILD_USER=builder
-export KBUILD_BUILD_HOST=MohammadIqbal
+export KBUILD_BUILD_HOST=MohammadIqbal🇮🇩
 export ARCH=arm64
 export LD_LIBRARY_PATH="/home/loli/install/bin/../lib:$PATH"
 
